@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat , sans-serif;
+
+}
+body {
+    background: rgb(247, 108, 108);
+}
+
+.site {
+    background: rgba(255, 255, 255, 0.877);
+    margin: 100px auto;
+    padding: 60px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.site h1 {
+    color: rgb(19, 22, 22);
+    border-bottom: solid black 2px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.quiz {
+    padding: 15px 0;
+}
+
+.quiz h2 {
+    padding: 20px 0;
+    color: rgb(19, 22, 22);
+}
+
+.btn {
+    color: black;
+    padding: 6px;
+    border: solid black 1px;
+    background: white;
+    width: 100%;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: left;
+    
+} 
+
+.timer-div{
+    background-color: rgb(201, 160, 160);
+    width: 4.5em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7em ;
+    
+
+}
+
+#next-btn {
+    background-color: rgb(219, 93, 93);
+    color: antiquewhite;
+    width: 100px;
+    padding: 10px;
+    margin: 10px auto 0;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+
+.btn:hover:not([disabled]){
+    background-color: rgb(5, 39, 39);
+    color: antiquewhite;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+.correct {
+    background: rgb(194, 233, 194);
+}
+
+.incorrect {
+    background: lightblue
+}
+
